@@ -1,0 +1,47 @@
+.mndiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.coldiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.backBut{
+    position: absolute;
+    left: 2rem;
+    width: 200px;
+    background-color: black;
+    color: white;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    padding: 1rem;
+    top: 1rem;
+}
+.StatusBut{
+    position: absolute;
+    right: 2rem;
+    top: 2rem;
+    display: flex;
+    gap: 2rem;
+}
+.approve{
+    background-color: green;
+    color: white;
+    border-radius: 1rem;
+    font-size: 20px;
+    padding: 1rem;
+    cursor: pointer;
+}
+.reject{
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    border-radius: 1rem;
+    padding: 1rem;
+    cursor: pointer;
+}
